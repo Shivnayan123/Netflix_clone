@@ -1,0 +1,334 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+.header {
+    /* width: 100%; */
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/IN-en-20230925-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 10px 8%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+nav button {
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding: 7px 10px;
+
+}
+
+.btn img {
+    width: 10px;
+    margin-left: 15px;
+    background-color: #fff;
+    color: #fff;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 60px;
+}
+
+.header-content h1 {
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 750px;
+}
+
+.header-content h2 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.email {
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.email input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+
+.email button {
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 13px;
+
+}
+
+.features {
+    padding: 50px 12%;
+    font-size: 22px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+
+.img-col img {
+    display: block;
+    margin-left: 90px;
+    /* background-image: url(img/siyaa.jpg); */
+    /* width: 70px;
+    height: 50px; */
+}
+
+.features h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.features1 {
+    padding: 50px 12%;
+    font-size: 22px;
+    margin-top: -150px;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.col1 {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+
+.img-col1 {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col1 img {
+    display: block;
+
+}
+
+.features1 h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.features2 {
+    padding: 50px 12%;
+    font-size: 22px;
+    margin-top: -150px;
+}
+
+.row2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.col2 {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+
+.img-col2 {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col2 img {
+    display: block;
+    margin-left: 90px;
+
+}
+
+.features2 h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 240px;
+    height: 105px;
+    margin-left: 180px;
+}
+
+.vls {
+    margin-top: -800px;
+    margin-bottom: 190px;
+}
+
+.vlss {
+    margin-top: -800px;
+    margin-bottom: 120px;
+    height: 130px;
+    width: 290px;
+    margin-left: 150px;
+}
+
+.features3 {
+    padding: 50px 12%;
+    font-size: 22px;
+    margin-top: -150px;
+}
+
+.row3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.col3 {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+
+.img-col3 {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col3 img {
+    display: block;
+
+}
+
+.features3 h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.faq {
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.faq h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.list {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.list li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.list li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after {
+    content: '+';
+    font-size: 34px;
+    right: 20px;
+    position: absolute;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.list .content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    text-align: left;
+    background: #303030;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.list input[type="radio"]:checked+label+.content {
+    max-height: 600px;
+    padding: 30px 20px;
+}
